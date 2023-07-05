@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Website</title>
+    <link rel="stylesheet" href="CSS/newsstyle.css">
+    <script src="https://kit.fontawesome.com/bac8c79424.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <h2 class="logo">
+            <a href="#">Rev News</a>
+        </h2>
+        <div class="search-bar flex">
+            <input id="search-text" type="text" class="search">
+            <button id="search-button" class="search-button"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div>
+            <a href="account.html" class="nav-link"><i class="fa-solid fa-user"></i></a>
+            <a href="#" onclick="logout()" class="nav-link"><i class="fa-solid fa-right-from-bracket"></i></a>
+        </div>
+    </header>
+
+    <main>
+        <section id="breakingNews">
+            <div id="breakingNewsContainer"></div>
+        </section>
+        <section id="searchResults" style="display: none;">
+            <div id="searchResultsContainer"></div>
+        </section>
+    </main>
+    <script src="JS/news.js"></script>
+</body>
+
+</html>

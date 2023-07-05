@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/account.css">
+    <script src="https://kit.fontawesome.com/bac8c79424.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <h2 class="logo">
+            <a href="#">Rev News</a>
+        </h2>
+        <div>
+            <a href="api.html" class="nav-link"><i class="fa-solid fa-house"></i></a>
+            <a href="#" onclick="logout()" class="nav-link"><i class="fa-solid fa-right-from-bracket"></i></a>
+        </div>
+    </header>
+
+    <div class="container">
+        <h2>User Account</h2>
+        <table>
+            <tr>
+                <td class="field">Name &nbsp;&nbsp;&nbsp; : </td>
+                <td id="name"></td>
+            </tr>
+            <tr>
+                <td class="field">Email &nbsp;&nbsp;&nbsp;&nbsp; : </td>
+                <td id="email"></td>
+            </tr>
+            <tr>
+                <td class="field">Country &nbsp;: </td>
+                <td id="country"></td>
+            </tr>
+        </table>
+        <div class="buttons">
+            <button id="update">Update</button>
+            <button id="delete">Delete</button>
+            <button id="reset">Reset Password</button>
+        </div>
+    </div>
+
+    <div id="modalContainer">
+        <div id="modalOverlay"></div>
+        <div id="modalContent">
+            <div class="close">
+                <button id="closeBtn"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <form id="updateForm">
+                <label for="name">Name</label>
+                <input type="text" id="u-name" name="name" required><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="u-email" name="email" required><br><br>
+
+                <label for="country">Country</label>
+                <input type="text" id="u-country" name="country" required> <br><br>
+
+                <input type="submit" value="Update" id="save">
+            </form>
+        </div>
+    </div>
+
+    <div id="modalContainer-2">
+        <div id="modalOverlay-2"></div>
+        <div id="modalContent-2">
+            <div class="close">
+                <button id="closeBtn-2"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <form id="resetForm">
+                <label for="password">Current Password:</label>
+                <input type="password" id="c-password" name="password" required><br><br>
+
+                <label for="password">New Password:</label>
+                <input type="password" id="n-password" name="password" required><br><br>
+
+                <label for="password">Confirm Password:</label>
+                <input type="password" id="cn-password" name="confirm-password" required><br><br>
+
+                <input type="submit" value="Reset" id="reset">
+            </form>
+        </div>
+    </div>
+
+    <script src="JS/account.js"></script>
+    <script src="JS/script.js"></script>
+</body>
+
+</html>

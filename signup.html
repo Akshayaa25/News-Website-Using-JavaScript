@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News App</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="JS/script.js"></script>
+</head>
+
+<body>
+    <header>
+        <h2 class="logo">
+            <a href="#">Rev News</a>
+        </h2>
+        <a href="index.html" class="link">Login</a>
+    </header>
+
+    <div class="container pd">
+        <h2 class="title">Sign Up</h2>
+        <form onsubmit="signup(event)">
+            <input type="text" id="name" name="name" placeholder="Name" required><br><br>
+            <input type="email" id="email" name="email" placeholder="Email" required><br><br>
+            <input type="password" id="password" name="password" placeholder="Password" required><br><br>
+            <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm Password" required><br><br>
+            <input type="text" id="country" name="country" placeholder="Country" required> <br><br>
+            <input type="submit" value="Sign Up">
+        </form>
+    </div>
+
+</body>
+
+</html>

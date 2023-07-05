@@ -1,0 +1,12 @@
+{
+  "users": [
+    {
+      "name": "Roheeth.U",
+      "email": "roheeth2000@gmail.com",
+      "password": "1234",
+      "confirmpassword": "1234",
+      "country": "Japan",
+      "id": 7
+    }
+  ]
+}
