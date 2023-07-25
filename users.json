@@ -1,20 +1,20 @@
 {
   "users": [
     {
-      "name": "Roheeth.U",
-      "email": "roheeth2000@gmail.com",
+      "name": "John",
+      "email": "john123@gmail.com",
       "password": "1234",
       "confirmpassword": "1234",
-      "country": "Japan",
-      "id": 7
+      "country": "USA",
+      "id": 1
     },
     {
-      "name": "Vaishnavi S",
-      "email": "vaishnavi@gmail.com",
+      "name": "Mary",
+      "email": "mary123@gmail.com",
       "password": "12345",
       "confirmpassword": "12345",
       "country": "India",
-      "id": 8
+      "id": 2
     }
   ]
 }
