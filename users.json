@@ -7,6 +7,14 @@
       "confirmpassword": "1234",
       "country": "Japan",
       "id": 7
+    },
+    {
+      "name": "Vaishnavi S",
+      "email": "vaishnavi@gmail.com",
+      "password": "12345",
+      "confirmpassword": "12345",
+      "country": "India",
+      "id": 8
     }
   ]
 }
